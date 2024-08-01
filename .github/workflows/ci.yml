@@ -29,4 +29,4 @@ jobs:
         continue-on-error: true
 
       - name: Test Report
-        run: npx github-actions-ctrf /ctrf/ctrf-report.json
+        run: npx github-actions-ctrf ctrf/ctrf-report.json
