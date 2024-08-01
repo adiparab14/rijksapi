@@ -26,3 +26,6 @@ jobs:
 
       - name: Run tests
         run: TOKEN=${{secrets.TOKEN}} npm test
+
+      - name: Test Report
+        run: npx github-actions-ctrf /ctrf/ctrf-report.json

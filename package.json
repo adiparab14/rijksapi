@@ -11,6 +11,7 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0",
+    "jest-ctrf-json-reporter": "^0.0.9",
     "supertest": "^7.0.0"
   }
 }
